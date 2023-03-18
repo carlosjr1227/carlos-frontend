@@ -1,0 +1,22 @@
+na{
+    background-color: black;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+
+}
+a{
+text-decoration: none;
+color: white;
+width: 60px;
+background-color: blueviolet;
+}
+
+a:hover{
+background-color: aquamarine;
+width: 60px;
+padding: 4px;
+
+}

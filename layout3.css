@@ -1,0 +1,62 @@
+*{
+  box-sizing:border-box
+
+}
+
+
+nav{
+    background-color: black;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+a{
+text-decoration: none;
+color: white;
+width: 60px;
+background-color: blueviolet;
+}
+
+a:hover{
+background-color: aquamarine;
+width: 60px;
+padding: 4px;
+
+}
+
+#banner{
+    width:auto;
+    height: 150px;
+    background-color: antiquewhite;
+    padding: 30 px;
+    text-align: center;
+    font-size: 35 px;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px;
+}
+ 
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+ 
+.footer{
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #ccc;
+}
+
+#foto {
+    border-radius: 50px;
+    background-color: red;
+    border: solid 1px;
+    width: 100px;
+    height: 100px;;
